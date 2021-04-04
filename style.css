@@ -73,17 +73,6 @@ body {
     cursor: pointer;    
 }
 
-
-/* button {
-    background: none;
-    border: 0px;
-    color: #888;
-    font-size: 15px;
-    width: 60px;
-    font-family: Lato, sans-serif;
-    cursor: pointer;
-} */
-
 .li__button-edit:hover,
 .li__button-delete:hover,
 .add-item__button-add:hover {
@@ -113,6 +102,7 @@ body {
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .add-item__input:focus,
 .li__input:focus {
     color: #333;
