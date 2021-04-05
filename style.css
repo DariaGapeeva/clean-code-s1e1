@@ -61,9 +61,7 @@ body {
     display: flex;
 }
 
-.li__button-edit,
-.li__button-delete,
-.add-item__button-add {
+.button {
     background: none;
     border: 0px;
     color: #888;
@@ -73,13 +71,12 @@ body {
     cursor: pointer;    
 }
 
-.li__button-edit:hover,
-.li__button-delete:hover,
-.add-item__button-add:hover {
+.button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-.todo-list__title {
+
+.title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -89,8 +86,7 @@ body {
     text-transform: uppercase;
 }
 
-.add-item__input,
-.li__input {
+.input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -103,13 +99,12 @@ body {
     color: #888;
 }
 
-.add-item__input:focus,
-.li__input:focus {
+.input:focus {
     color: #333;
 }
 
 /* New Task */
-.todo-list__title_add {
+.add-item__title {
     display: block;
     margin: 0 0 20px;
 }

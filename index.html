@@ -14,46 +14,46 @@
     </header>
     <main class="todo-list">
       <section class="add-item">
-        <p>
-          <label for="new-task" class="todo-list__title todo-list__title_add">Add Item</label>
+        <p class="add-item__paragraph">
+          <label for="new-task" class="add-item__title title">Add Item</label>
           <div class="add-item__row">
-            <input id="new-task" class="add-item__input" type="text">
-            <button class="add-item__button-add">Add</button>
+            <input id="new-task" class="add-item__input input" type="text">
+            <button class="add-item__button-add button">Add</button>
           </div>
         </p>
       </section>
-      <section>
-        <h3 class="todo-list__title" >Todo</h3>
-        <ul id="incomplete-tasks" class="incomplete-tasks">
+      <section class="incomplete-tasks">
+        <h3 class="incomplete-tasks__title title" >Todo</h3>
+        <ul id="incomplete-tasks-list" class="incomplete-tasks__list">
           <li class="incomplete-tasks__li li" >
             <input class="li__checkbox" type="checkbox">
             <label class="li__label">Pay Bills</label>
-            <input class="li__input" type="text">
-            <button class="li__button-edit">Edit</button>
-            <button class="li__button-delete">
+            <input class="li__input input" type="text">
+            <button class="li__button-edit button">Edit</button>
+            <button class="li__button-delete button">
               <img class="li__image-delete" src="./remove.svg" alt="remove">
             </button>
           </li>
           <li class="incomplete-tasks__li li editMode">
             <input class="li__checkbox" type="checkbox">
             <label class="li__label">Go Shopping</label>
-            <input class="li__input" type="text" value="Go Shopping">
-            <button class="li__button-edit">Save</button>
-            <button class="li__button-delete">
+            <input class="li__input input" type="text" value="Go Shopping">
+            <button class="li__button-edit button">Save</button>
+            <button class="li__button-delete button">
               <img class="li__image-delete" src="./remove.svg" alt="remove">
             </button>
           </li>
         </ul>
       </section>
-      <section>
-        <h3 class="todo-list__title">Completed</h3>
-        <ul id="completed-tasks" class="complete-tasks" >
+      <section class="complete-tasks">
+        <h3 class="complete-tasks__title title">Completed</h3>
+        <ul id="completed-tasks-list" class="complete-tasks__list" >
           <li class="completed-tasks__li li">
             <input class="li__checkbox" type="checkbox" checked>
             <label class="li__label">See the Doctor</label>
-            <input class="li__input" type="text" >
-            <button class="li__button-edit">Edit</button>
-            <button class="li__button-delete">
+            <input class="li__input input" type="text" >
+            <button class="li__button-edit button">Edit</button>
+            <button class="li__button-delete button">
               <img class="li__image-delete" src="./remove.svg" alt="remove">
             </button>
           </li>
