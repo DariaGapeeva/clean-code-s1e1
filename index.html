@@ -13,13 +13,16 @@
       </a>
     </header>
     <main class="todo-list">
-      <p class="add-item">
+      <section class="add-item">
+      <p>
         <label for="new-task" class="todo-list__title todo-list__title_add">Add Item</label>
         <div class="add-item__row">
           <input id="new-task" class="add-item__input" type="text">
           <button class="add-item__button-add">Add</button>
         </div>
       </p>
+    </section>
+    <section>
       <h3 class="todo-list__title" >Todo</h3>
       <ul id="incomplete-tasks" class="incomplete-tasks">
         <li class="incomplete-tasks__li li" >
@@ -41,6 +44,8 @@
           </button>
         </li>
       </ul>
+    </section>
+    <section>
       <h3 class="todo-list__title">Completed</h3>
       <ul id="completed-tasks" class="complete-tasks" >
         <li class="completed-tasks__li li">
@@ -53,6 +58,9 @@
           </button>
         </li>
       </ul>
+    </section>
+   
+    </section>
     </main>
     <script src="app.js"></script>
   </body>
